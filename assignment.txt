@@ -1,0 +1,45 @@
+Create a local git repository and move the entire code base to it
+
+1. create a local Git repository and importing the codebase:
+-Local Repository Name: VersionControlAssignment1
+-Navigate to the root directory of the existing codebase. Open a terminal window and use cd to reach the main folder containing the files
+ -cd path to the project
+ 2. Initialize a local Git repository to create an empty repository within the current directory
+   - git init 
+3. Add all file to the Repository use  git add . to stage all files in the current directory and its subdirectories for version VersionControlAssignment1
+    - git add .
+4. Commit the initial changes
+   - git commit -m "adding main.py"
+
+Create a new branch for a new feature you want to add to the application
+========================================================================
+1. Create a new Branch for the feature
+- git checkout -b new-feature-branch
+- git commit -m "added main.py to new-feature-branch"
+
+Merge back the created branch with the master branch
+=========================================================================
+Switch back to the master branch
+-git checkout master
+
+Merge the new feature branch into master
+-git merge new-feature-branch
+
+Push the merged changes to the local repository
+-git push origin master
+
+Create a remote repository
+-Create a new repository on GitHub (https://github.com/)
+
+Push the local repository to company’s remote repository
+Add the remote repository URL to your local repository
+-git remote add origin <repository-url>
+
+Push the master branch to the remote repository
+-git push -u origin master
+
+Push the new feature branch to the remote repository
+- git push origin new-feature-branch
+
+
+
