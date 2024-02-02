@@ -17,16 +17,16 @@ Create a new branch for a new feature you want to add to the application
 - git checkout -b new-feature-branch
 - git commit -m "added main.py to new-feature-branch"
 
-Merge back the created branch with the master branch
+Merge back the created branch with the main branch
 =========================================================================
-Switch back to the master branch
--git checkout master
+Switch back to the main branch
+-git checkout main
 
-Merge the new feature branch into master
+Merge the new feature branch into main
 -git merge new-feature-branch
 
 Push the merged changes to the local repository
--git push origin master
+-git push origin main
 
 Create a remote repository
 -Create a new repository on GitHub (https://github.com/)
@@ -35,8 +35,8 @@ Push the local repository to company’s remote repository
 Add the remote repository URL to your local repository
 -git remote add origin <repository-url>
 
-Push the master branch to the remote repository
--git push -u origin master
+Push the main branch to the remote repository
+-git push -u origin main
 
 Push the new feature branch to the remote repository
 - git push origin new-feature-branch
