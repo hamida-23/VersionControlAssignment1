@@ -1,4 +1,5 @@
 Create a local git repository and move the entire code base to it
+==============================================================================
 
 1. create a local Git repository and importing the codebase:
 -Local Repository Name: VersionControlAssignment1
